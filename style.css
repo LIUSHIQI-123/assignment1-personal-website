@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #89b4ff;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #89b4ff;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+    line-height: 1.8;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url("myphoto.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero-text h2 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    color: white;
+    font-size: 20px;
+}
